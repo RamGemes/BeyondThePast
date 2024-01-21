@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "btp:block/polished_grimstone",
+    "side": "btp:block/polished_grimstone",
+    "top": "btp:block/polished_grimstone"
+  }
+}
