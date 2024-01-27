@@ -1,5 +1,6 @@
 package net.ramgames.btp.items;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
@@ -10,7 +11,8 @@ import org.jetbrains.annotations.Nullable;
 
 public class ModItems {
 
-
+    public static final Item CITRINE_SHARD = registerItem("citrine_shard", new Item(new FabricItemSettings()), ModItemGroups.BTP_GROUP);
+    public static final Item TOPAZ_SHARD = registerItem("topaz_shard", new Item(new FabricItemSettings()), ModItemGroups.BTP_GROUP);
 
     private static Item registerItem(String name, Item item, @Nullable ItemGroup tab) {
         Registry.register(Registries.ITEM, new Identifier(BeyondThePast.MOD_ID,name),item);

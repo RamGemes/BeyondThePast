@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "btp:block/clusters/large_topaz_bud"
+  }
+}

@@ -22,7 +22,11 @@
     ]
   },
   "mixins": [
-    "btp.mixins.json"
+    "btp.mixins.json",
+    {
+      "config": "btp.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "btp:block/clusters/medium_citrine_bud"
+  }
+}

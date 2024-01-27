@@ -14,7 +14,15 @@ public class BeyondThePastClient implements ClientModInitializer {
     public void onInitializeClient() {
         LOGGER.info("BTP Client has begun loading...");
         ModBlockRenderLayers.registerNonFull(
-                ModBlocks.POLISHED_GRIMSTONE_SLAB
+                ModBlocks.POLISHED_GRIMSTONE_SLAB,
+                ModBlocks.CITRINE_CLUSTER,
+                ModBlocks.LARGE_CITRINE_BUD,
+                ModBlocks.MEDIUM_CITRINE_BUD,
+                ModBlocks.SMALL_CITRINE_BUD,
+                ModBlocks.TOPAZ_CLUSTER,
+                ModBlocks.LARGE_TOPAZ_BUD,
+                ModBlocks.MEDIUM_TOPAZ_BUD,
+                ModBlocks.SMALL_TOPAZ_BUD
         );
         LOGGER.info("BTP Client has finished loading!");
     }

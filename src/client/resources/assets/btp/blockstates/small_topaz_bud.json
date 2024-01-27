@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "btp:block/clusters/small_topaz_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "btp:block/clusters/small_topaz_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "btp:block/clusters/small_topaz_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "btp:block/clusters/small_topaz_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "btp:block/clusters/small_topaz_bud"
+    },
+    "facing=west": {
+      "model": "btp:block/clusters/small_topaz_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
