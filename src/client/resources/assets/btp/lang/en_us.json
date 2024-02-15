@@ -1,0 +1,29 @@
+{
+
+  "block.btp.grimstone": "Grimstone",
+  "block.btp.polished_grimstone": "Polished Grimstone",
+  "block.btp.polished_grimstone_slab": "Polished Grimstone Slab",
+  "block.btp.citrine_block": "Citrine Block",
+  "block.btp.budding_citrine_block": "Budding Citrine Block",
+  "block.btp.citrine_cluster": "Citrine Cluster",
+  "block.btp.large_citrine_bud": "Large Citrine Bud",
+  "block.btp.medium_citrine_bud": "Large Citrine Bud",
+  "block.btp.small_citrine_bud": "Medium Citrine Bud",
+  "block.btp.topaz_cluster": "Topaz Cluster",
+  "block.btp.large_topaz_bud": "Large Topaz Bud",
+  "block.btp.medium_topaz_bud": "Medium Topaz Bud",
+  "block.btp.small_topaz_bud": "Small Topaz Bud",
+  "block.btp.ancient_stone": "Ancient Stone",
+  "block.btp.polished_ancient_stone": "Polished Ancient Stone",
+  "block.btp.ancient_stone_bricks": "Ancient Stone Bricks",
+  "block.btp.polished_ancient_stone_slab": "Polished Ancient Stone Slab",
+  "block.btp.chiseled_ancient_stone": "Chiseled Ancient Stone",
+  "block.btp.topaz_block": "Topaz Block",
+  "block.btp.budding_topaz_block": "Budding Topaz Block",
+
+  "item.btp.citrine_shard": "Citrine Shard",
+  "item.btp.topaz_shard": "Topaz Shard"
+
+
+
+}

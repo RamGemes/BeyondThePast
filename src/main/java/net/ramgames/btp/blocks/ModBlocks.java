@@ -36,6 +36,12 @@ public class ModBlocks {
 
     public static final Block BUDDING_TOPAZ_BLOCK = registerBlock("budding_topaz_block", new BuddingBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), SMALL_TOPAZ_BUD, MEDIUM_TOPAZ_BUD, LARGE_TOPAZ_BUD, TOPAZ_CLUSTER), ModItemGroups.BTP_GROUP);
 
+    public static final Block ANCIENT_STONE = registerBlock("ancient_stone", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE)), ModItemGroups.BTP_GROUP);
+    public static final Block ANCIENT_STONE_BRICKS = registerBlock("ancient_stone_bricks", new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)), ModItemGroups.BTP_GROUP);
+    public static final Block CHISELED_ANCIENT_STONE = registerBlock("chiseled_ancient_stone", new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_DEEPSLATE)), ModItemGroups.BTP_GROUP);
+    public static final Block POLISHED_ANCIENT_STONE = registerBlock("polished_ancient_stone", new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE)), ModItemGroups.BTP_GROUP);
+    public static final Block POLISHED_ANCIENT_STONE_SLAB = registerBlock("polished_ancient_stone_slab", new SlabBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE_SLAB)), ModItemGroups.BTP_GROUP);
+
     private static void registerBlockItem(String name, Block block, ItemGroup tab) {
         Item item = Registry.register(Registries.ITEM, new Identifier(BeyondThePast.MOD_ID,name), new BlockItem(block, new FabricItemSettings()));
         if(tab != null) ModItemGroups.appendToTab(item,tab);

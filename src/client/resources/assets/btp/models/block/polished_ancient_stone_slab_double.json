@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "btp:block/ancient_stone/polished_ancient_stone",
+    "side": "btp:block/ancient_stone/polished_ancient_stone"
+  }
+}

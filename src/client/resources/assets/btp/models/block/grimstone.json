@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "btp:block/grimstone"
+    "all": "btp:block/grimstone/grimstone"
   }
 }
